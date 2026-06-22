@@ -3,7 +3,7 @@ export const profile = {
   role: "music_label_ops && creative_operations",
   linkedin: "https://linkedin.com/in/alexstekl",
   email: "alxstekl@gmail.com",
-  about: `Specializing in label and creative operations, with a passion for delivering impactful releases and designing effective workflows for the modern music industry. Comfortable working across both operational and technical teams to help bring the right tools and processes to life.`,
+  about: `I work at the intersection of creative, operations, music, and technology — building workflows, delivering projects, and helping teams move faster without losing quality. Background spans label ops, distribution, internal tooling, and creative production. I'm drawn to the gap between how things work and how they could.`,
 }
 
 export type Tag = "marketing" | "pr" | "creative" | "ar" | "mgmt" | "label" | "ops" | "partnerships"
@@ -25,8 +25,7 @@ export interface ExperienceEntry {
   company: string
   url?: string
   preview?: string
-  employmentType: string
-  location: string
+  location?: string
   roles: Role[]
   description: string
   bullets: string[]
@@ -41,11 +40,9 @@ export const experience: ExperienceEntry[] = [
     company: "PRAIRY",
     url: "https://www.prairy.xyz",
     preview: "/previews/prairy.jpg",
-    employmentType: "contract_full_time",
-    location: "remote",
     roles: [
-      { title: "label_ops_specialist",   start: "sep_2025", end: "present",  duration: "9_mos" },
-      { title: "creative_coordinator",   start: "sep_2024", end: "sep_2025", duration: "1_yr_1_mo" },
+      { title: "label ops specialist",   start: "sep_2025", end: "present",  duration: "9_mos" },
+      { title: "creative coordinator",   start: "sep_2024", end: "sep_2025", duration: "1_yr_1_mo" },
     ],
     description: "",
     bullets: [
@@ -79,7 +76,6 @@ export const experience: ExperienceEntry[] = [
       "/work/prairy/nyxonreddresscover.png",
       "/work/prairy/silence after the crash track list black.png",
       "/work/prairy/sophinatonight1.png",
-      "/work/prairy/study sloane dp 2.png",
       "/work/prairy/victoriassecret3.png",
       "/work/prairy/vyxie 13 reasons cover1.2 copy.png",
       "/work/prairy/waiting cover nicole breeze.png",
@@ -93,14 +89,12 @@ export const experience: ExperienceEntry[] = [
     company: "SURELY_WORK",
     url: "https://www.surelywork.com",
     preview: "/previews/surely-work.jpg",
-    employmentType: "contract_part_time",
-    location: "remote",
     roles: [
-      { title: "marketing_&&_partnerships_manager", start: "jun_2023", end: "oct_2025", duration: "2_yrs_4_mos" },
+      { title: "marketing & partnerships manager", start: "jun_2023", end: "oct_2025", duration: "2_yrs_4_mos" },
     ],
     description: "Global creative network and jobs board for the entertainment industry.",
     bullets: [
-      "Grew Instagram following and helped scale the platform to over 10,000 users through targeted content strategy.",
+      "Supported platform growth to 10,000+ users through coordinated content strategy and community initiatives.",
       "Established and maintained partnerships with agencies, labels, and production companies across the creative industry.",
       "Managed ongoing relationships with influential community members to drive collaboration and retention.",
     ],
@@ -111,10 +105,8 @@ export const experience: ExperienceEntry[] = [
     company: "ORIENTEER",
     url: "https://orienteer.us",
     preview: "/previews/orienteer.jpg",
-    employmentType: "internship",
-    location: "remote",
     roles: [
-      { title: "publicity_intern", start: "jan_2024", end: "jun_2024", duration: "6_mos" },
+      { title: "publicity intern", start: "jan_2024", end: "jun_2024", duration: "6_mos" },
     ],
     description: "",
     bullets: [
@@ -136,8 +128,7 @@ export const experience: ExperienceEntry[] = [
     company: "WENER_MGMT",
     url: "https://wenermgmt.com",
     preview: "/previews/wener-mgmt.jpg",
-    employmentType: "on_call",
-    location: "vancouver_bc · hybrid",
+    location: "vancouver_bc",
     roles: [
       { title: "assistant", start: "aug_2023", end: "nov_2023", duration: "4_mos" },
     ],
@@ -152,10 +143,8 @@ export const experience: ExperienceEntry[] = [
     company: "UNBELIEVABLY_SPECTACULAR",
     url: "https://unbelievablyspectacular.com/home",
     preview: "/previews/unbelievably-spectacular.jpg",
-    employmentType: "contract_part_time",
-    location: "remote",
     roles: [
-      { title: "a&r_+_label_manager", start: "aug_2023", end: "oct_2023", duration: "3_mos" },
+      { title: "a&r + label manager", start: "aug_2023", end: "oct_2023", duration: "3_mos" },
     ],
     description: "",
     bullets: [

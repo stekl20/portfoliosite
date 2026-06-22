@@ -101,7 +101,11 @@
 }
 
 /* Right column */
-.right {}
+.right {
+  min-width: 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
 
 .roles {
   margin-bottom: 14px;
@@ -237,32 +241,74 @@ a.companyName:hover {
   margin: 0;
 }
 
-/* Responsive */
-@media (max-width: 700px) {
+/* Medium — narrow desktop / large tablet */
+@media (max-width: 960px) {
   .entry {
-    grid-template-columns: 1fr;
-    gap: 12px 0;
+    grid-template-columns: 180px 1fr;
+    gap: 0 28px;
   }
 
   .role {
     flex-direction: column;
-    gap: 1px;
+    gap: 2px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .entry {
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+    padding: 24px 0;
+    align-items: start;
   }
 
-  .roleDates {
-    font-size: 10px;
+  /* Dissolve .right so its children become direct grid items */
+  .right {
+    display: contents;
+  }
+
+  .roles {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+    margin-bottom: 0;
+  }
+
+  .role {
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1px;
+    margin-bottom: 6px;
   }
 
   .roleDuration {
-    font-size: 10px;
+    margin-left: 0;
+  }
+
+  .description,
+  .bullets,
+  .documents,
+  .images {
+    grid-column: 1 / -1;
+    margin-top: 12px;
+  }
+
+  .images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    margin-top: 12px;
   }
 
   .imgThumb {
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
   }
 
   .imgThumbExpanded {
-    transform: scale(2.0);
+    transform: none;
   }
 }

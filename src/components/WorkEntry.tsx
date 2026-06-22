@@ -71,8 +71,7 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
               : <span className={styles.companyName}>{entry.company}</span>
             }
           </div>
-          <div className={styles.meta}>{entry.employmentType}</div>
-          <div className={styles.meta}>{entry.location}</div>
+          {entry.location && <div className={styles.meta}>{entry.location}</div>}
           <div className={styles.tags}>
             {entry.tags.map(tag => (
               <TagPill key={tag} tag={tag} />

@@ -68,6 +68,7 @@ body {
   color: var(--text);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
@@ -95,12 +96,18 @@ hr {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 60px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    padding: 0 48px;
+  }
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 20px;
+    padding: 0 28px;
   }
 }
 
