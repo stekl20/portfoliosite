@@ -1,0 +1,296 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - region "Launch promotion" [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]: Limited time
+        - generic [ref=e7]: ·
+        - generic [ref=e8]: Database access 50% off
+        - generic [ref=e9]: ·
+        - generic [ref=e10]: $5/mo
+        - generic [ref=e11]: ·
+        - link "Subscribe →" [ref=e12] [cursor=pointer]:
+          - /url: /database
+        - generic [ref=e13]: ·
+        - link "Enterprise dashboard access →" [ref=e14] [cursor=pointer]:
+          - /url: /enterprise-plan
+    - main [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - link "surely+work" [ref=e18] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]: surely+work
+          - navigation [ref=e20]:
+            - link "how it works" [ref=e21] [cursor=pointer]:
+              - /url: /how-it-works
+            - link "jobs board" [ref=e22] [cursor=pointer]:
+              - /url: /jobs
+            - link "enterprise plan" [ref=e23] [cursor=pointer]:
+              - /url: /enterprise-plan
+            - link "database" [ref=e24] [cursor=pointer]:
+              - /url: /database
+        - generic [ref=e27]:
+          - link "submit a brief a curator replies within the working day" [ref=e28] [cursor=pointer]:
+            - /url: /submit
+            - generic [ref=e29]:
+              - generic [ref=e30]: submit a brief
+              - generic [ref=e31]: a curator replies within the working day
+          - generic:
+            - link "Camila Cruz CREATIVE Camila Cruz" [ref=e34] [cursor=pointer]:
+              - /url: /database/690
+              - generic [ref=e35]:
+                - img "Camila Cruz" [ref=e37]
+                - generic [ref=e38]:
+                  - generic [ref=e39]: CREATIVE
+                  - generic [ref=e40]: Camila Cruz
+            - link "Alexis Betts PHOTO–VIDEO Alexis Betts" [ref=e41] [cursor=pointer]:
+              - /url: /database/2625
+              - generic [ref=e42]:
+                - img "Alexis Betts" [ref=e44]
+                - generic [ref=e45]:
+                  - generic [ref=e46]: PHOTO–VIDEO
+                  - generic [ref=e47]: Alexis Betts
+            - link "Louis Falisse DESIGN Louis Falisse" [ref=e48] [cursor=pointer]:
+              - /url: /database/9047
+              - generic [ref=e49]:
+                - img "Louis Falisse" [ref=e51]
+                - generic [ref=e52]:
+                  - generic [ref=e53]: DESIGN
+                  - generic [ref=e54]: Louis Falisse
+            - link "Julian Injeti PHOTO–VIDEO Julian Injeti" [ref=e55] [cursor=pointer]:
+              - /url: /database/3336
+              - generic [ref=e56]:
+                - img "Julian Injeti" [ref=e58]
+                - generic [ref=e59]:
+                  - generic [ref=e60]: PHOTO–VIDEO
+                  - generic [ref=e61]: Julian Injeti
+            - link "Paige Trahan CREATIVE Paige Trahan" [ref=e62] [cursor=pointer]:
+              - /url: /database/10107
+              - generic [ref=e63]:
+                - img "Paige Trahan" [ref=e65]
+                - generic [ref=e66]:
+                  - generic [ref=e67]: CREATIVE
+                  - generic [ref=e68]: Paige Trahan
+            - link "Molly Polus PHOTO–VIDEO Molly Polus" [ref=e69] [cursor=pointer]:
+              - /url: /database/6720
+              - generic [ref=e70]:
+                - img "Molly Polus" [ref=e72]
+                - generic [ref=e73]:
+                  - generic [ref=e74]: PHOTO–VIDEO
+                  - generic [ref=e75]: Molly Polus
+            - link "Miguel Vega PHOTO–VIDEO Miguel Vega" [ref=e76] [cursor=pointer]:
+              - /url: /database/270
+              - generic [ref=e77]:
+                - img "Miguel Vega" [ref=e79]
+                - generic [ref=e80]:
+                  - generic [ref=e81]: PHOTO–VIDEO
+                  - generic [ref=e82]: Miguel Vega
+            - link "troy the editor DESIGN troy the editor" [ref=e83] [cursor=pointer]:
+              - /url: /database/4993
+              - generic [ref=e84]:
+                - img "troy the editor" [ref=e86]
+                - generic [ref=e87]:
+                  - generic [ref=e88]: DESIGN
+                  - generic [ref=e89]: troy the editor
+          - generic [ref=e91]:
+            - generic [ref=e92]: PHOTOGRAPHY
+            - generic [ref=e93]: STYLING
+            - generic [ref=e94]: ART DIRECTION
+            - generic [ref=e95]: DESIGN
+            - generic [ref=e96]: PRODUCTION
+            - generic [ref=e97]: DIRECTING
+            - generic [ref=e98]: CASTING
+            - generic [ref=e99]: SOUND
+            - generic [ref=e100]: MOTION
+            - generic [ref=e101]: EDITORIAL
+            - generic [ref=e102]: 3D / CGI
+            - generic [ref=e103]: ILLUSTRATION
+            - generic [ref=e104]: PHOTOGRAPHY
+            - generic [ref=e105]: STYLING
+            - generic [ref=e106]: ART DIRECTION
+            - generic [ref=e107]: DESIGN
+            - generic [ref=e108]: PHOTOGRAPHY
+            - generic [ref=e109]: STYLING
+            - generic [ref=e110]: ART DIRECTION
+            - generic [ref=e111]: DESIGN
+            - generic [ref=e112]: PRODUCTION
+            - generic [ref=e113]: DIRECTING
+            - generic [ref=e114]: CASTING
+            - generic [ref=e115]: SOUND
+            - generic [ref=e116]: MOTION
+            - generic [ref=e117]: EDITORIAL
+            - generic [ref=e118]: 3D / CGI
+            - generic [ref=e119]: ILLUSTRATION
+            - generic [ref=e120]: PHOTOGRAPHY
+            - generic [ref=e121]: STYLING
+            - generic [ref=e122]: ART DIRECTION
+            - generic [ref=e123]: DESIGN
+          - generic [ref=e124]:
+            - generic [ref=e125]:
+              - generic [ref=e127]: LIVE
+              - generic [ref=e128]: ·
+              - generic [ref=e129]: FRESH GIGS
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - link "S Freelance Mid LVL Designer SERIES BRAND STUDIO · Los Angeles · 22h" [ref=e133] [cursor=pointer]:
+                  - /url: /jobs/cmq8h5d7e000004jp4kd2tnee
+                  - generic [ref=e134]: S
+                  - generic [ref=e135]:
+                    - generic [ref=e136]: Freelance Mid LVL Designer
+                    - generic [ref=e137]:
+                      - generic [ref=e138]: SERIES BRAND STUDIO
+                      - generic [ref=e139]: ·
+                      - generic [ref=e140]: Los Angeles
+                      - generic [ref=e141]: ·
+                      - generic [ref=e142]: 22h
+              - listitem [ref=e143]:
+                - link "Video Editor Lotus AI · SanFrancisco · 28d" [ref=e144] [cursor=pointer]:
+                  - /url: /jobs/1261
+                  - generic [ref=e146]:
+                    - generic [ref=e147]: Video Editor
+                    - generic [ref=e148]:
+                      - generic [ref=e149]: Lotus AI
+                      - generic [ref=e150]: ·
+                      - generic [ref=e151]: SanFrancisco
+                      - generic [ref=e152]: ·
+                      - generic [ref=e153]: 28d
+              - listitem [ref=e154]:
+                - link "Video Editor Lotus AI · SanFrancisco · 28d" [ref=e155] [cursor=pointer]:
+                  - /url: /jobs/1260
+                  - generic [ref=e157]:
+                    - generic [ref=e158]: Video Editor
+                    - generic [ref=e159]:
+                      - generic [ref=e160]: Lotus AI
+                      - generic [ref=e161]: ·
+                      - generic [ref=e162]: SanFrancisco
+                      - generic [ref=e163]: ·
+                      - generic [ref=e164]: 28d
+              - listitem [ref=e165]:
+                - link "Meta Ads Marketer for Her Dark Heaven Her Dark Heaven · Remote · 47d" [ref=e166] [cursor=pointer]:
+                  - /url: /jobs/1253
+                  - generic [ref=e168]:
+                    - generic [ref=e169]: Meta Ads Marketer for Her Dark Heaven
+                    - generic [ref=e170]:
+                      - generic [ref=e171]: Her Dark Heaven
+                      - generic [ref=e172]: ·
+                      - generic [ref=e173]: Remote
+                      - generic [ref=e174]: ·
+                      - generic [ref=e175]: 47d
+              - listitem [ref=e176]:
+                - link "Content Editor JT Stanley · Remote · 48d" [ref=e177] [cursor=pointer]:
+                  - /url: /jobs/1251
+                  - generic [ref=e179]:
+                    - generic [ref=e180]: Content Editor
+                    - generic [ref=e181]:
+                      - generic [ref=e182]: JT Stanley
+                      - generic [ref=e183]: ·
+                      - generic [ref=e184]: Remote
+                      - generic [ref=e185]: ·
+                      - generic [ref=e186]: 48d
+            - link "VIEW ALL 39 OPEN →" [ref=e187] [cursor=pointer]:
+              - /url: /jobs
+              - generic [ref=e188]: VIEW ALL 39 OPEN
+              - generic [ref=e189]: →
+        - generic [ref=e190]:
+          - paragraph [ref=e191]: A curator led service. Not a marketplace.
+          - heading "Find the right creative talent." [level=1] [ref=e192]:
+            - text: Find the right
+            - text: creative talent.
+          - paragraph [ref=e193]: We're a service that pairs brands and artists with vetted creative talent. Send us a brief and pay a small % of your project budget and we will headhunt for you, or just post to our jobs board.
+        - generic [ref=e194]:
+          - generic [ref=e195]: TRUSTED BY
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic "LN_Logo_Primary_Red-Black-web" [ref=e199]:
+                - img "LN_Logo_Primary_Red-Black-web" [ref=e200]
+              - generic [ref=e201]: •
+            - generic [ref=e202]:
+              - generic "Virgin_Music_Group.svg" [ref=e203]:
+                - img "Virgin_Music_Group.svg" [ref=e204]
+              - generic [ref=e205]: •
+            - generic [ref=e206]:
+              - generic "Warner_Music_Group_logo_(2021).svg" [ref=e207]:
+                - img "Warner_Music_Group_logo_(2021).svg" [ref=e208]
+              - generic [ref=e209]: •
+            - generic [ref=e210]:
+              - generic "universal-music-group-logo" [ref=e211]:
+                - img "universal-music-group-logo" [ref=e212]
+              - generic [ref=e213]: •
+            - generic [ref=e214]:
+              - generic "69a9a7e04cee6d2136646602_1916_og_image (1)" [ref=e215]:
+                - img "69a9a7e04cee6d2136646602_1916_og_image (1)" [ref=e216]
+              - generic [ref=e217]: •
+            - generic [ref=e218]:
+              - generic "images" [ref=e219]:
+                - img "images" [ref=e220]
+              - generic [ref=e221]: •
+            - generic [ref=e222]:
+              - generic "og-home" [ref=e223]:
+                - img "og-home" [ref=e224]
+              - generic [ref=e225]: •
+            - generic [ref=e226]:
+              - generic "Logo-Full-BlueText" [ref=e227]:
+                - img "Logo-Full-BlueText" [ref=e228]
+              - generic [ref=e229]: •
+            - generic [ref=e230]:
+              - generic "LN_Logo_Primary_Red-Black-web" [ref=e231]:
+                - img "LN_Logo_Primary_Red-Black-web" [ref=e232]
+              - generic [ref=e233]: •
+            - generic [ref=e234]:
+              - generic "Virgin_Music_Group.svg" [ref=e235]:
+                - img "Virgin_Music_Group.svg" [ref=e236]
+              - generic [ref=e237]: •
+            - generic [ref=e238]:
+              - generic "Warner_Music_Group_logo_(2021).svg" [ref=e239]:
+                - img "Warner_Music_Group_logo_(2021).svg" [ref=e240]
+              - generic [ref=e241]: •
+            - generic [ref=e242]:
+              - generic "universal-music-group-logo" [ref=e243]:
+                - img "universal-music-group-logo" [ref=e244]
+              - generic [ref=e245]: •
+            - generic [ref=e246]:
+              - generic "69a9a7e04cee6d2136646602_1916_og_image (1)" [ref=e247]:
+                - img "69a9a7e04cee6d2136646602_1916_og_image (1)" [ref=e248]
+              - generic [ref=e249]: •
+            - generic [ref=e250]:
+              - generic "images" [ref=e251]:
+                - img "images" [ref=e252]
+              - generic [ref=e253]: •
+            - generic [ref=e254]:
+              - generic "og-home" [ref=e255]:
+                - img "og-home" [ref=e256]
+              - generic [ref=e257]: •
+            - generic [ref=e258]:
+              - generic "Logo-Full-BlueText" [ref=e259]:
+                - img "Logo-Full-BlueText" [ref=e260]
+              - generic [ref=e261]: •
+        - generic [ref=e262]:
+          - link "01. for brands Submit a project. Tell us the shape of the work. Budget, dates, deliverables. We read every brief and reply within a working day with two or three clarifying questions. get started" [ref=e263] [cursor=pointer]:
+            - /url: /submit
+            - generic [ref=e264]: 01. for brands
+            - heading "Submit a project." [level=2] [ref=e265]
+            - paragraph [ref=e266]: Tell us the shape of the work. Budget, dates, deliverables. We read every brief and reply within a working day with two or three clarifying questions.
+            - generic [ref=e267]:
+              - text: get started
+              - generic [ref=e268]: →
+          - link "02. for creatives Join the database. A portfolio, two references, and a fifteen-minute call. We add a handful of names a week and never run open calls. sign up to join the public database and apply to jobs on our jobs board" [ref=e269] [cursor=pointer]:
+            - /url: /jobs
+            - generic [ref=e270]: 02. for creatives
+            - heading "Join the database." [level=2] [ref=e271]
+            - paragraph [ref=e272]: A portfolio, two references, and a fifteen-minute call. We add a handful of names a week and never run open calls.
+            - generic [ref=e273]:
+              - text: sign up to join the public database and apply to jobs on our jobs board
+              - generic [ref=e274]: →
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e277]: 11,836
+            - generic [ref=e278]: Vetted creatives on file
+          - generic [ref=e279]:
+            - generic [ref=e280]: "21"
+            - generic [ref=e281]: Disciplines indexed
+          - generic [ref=e282]:
+            - generic [ref=e283]: "39"
+            - generic [ref=e284]: Open roles
+          - generic [ref=e285]:
+            - generic [ref=e286]: "3"
+            - generic [ref=e287]: Applications this month
+  - region "Notifications alt+T"

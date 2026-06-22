@@ -1,0 +1,158 @@
+- generic [ref=e7]:
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - heading "Unbelievably Spectacular" [level=1] [ref=e11]:
+        - link "Unbelievably Spectacular" [ref=e12] [cursor=pointer]:
+          - /url: /home
+          - img "Unbelievably Spectacular" [ref=e15]
+      - generic [ref=e16]:
+        - text: 
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "home" [ref=e21] [cursor=pointer]:
+                - /url: /home
+            - listitem [ref=e22]:
+              - link "label" [ref=e24] [cursor=pointer]:
+                - /url: /label
+            - listitem [ref=e25]:
+              - link "management" [ref=e27] [cursor=pointer]:
+                - /url: /management
+            - listitem [ref=e28]:
+              - link "about/contact" [ref=e30] [cursor=pointer]:
+                - /url: /about-contact
+      - list [ref=e41]:
+        - listitem [ref=e42]:
+          - link "https://www.instagram.com/unbelievablyspectacular/" [ref=e43] [cursor=pointer]:
+            - /url: https://www.instagram.com/unbelievablyspectacular/
+            - img
+        - listitem [ref=e44]:
+          - link "https://web.facebook.com/unbelievablyspectacular" [ref=e45] [cursor=pointer]:
+            - /url: https://web.facebook.com/unbelievablyspectacular
+            - img
+        - listitem [ref=e46]:
+          - link "htthttps://www.tiktok.com/@unbelievably.spectacular?lang=en" [ref=e47] [cursor=pointer]:
+            - /url: htthttps://www.tiktok.com/@unbelievably.spectacular?lang=en
+            - img
+        - listitem [ref=e48]:
+          - link "https://open.spotify.com/user/31s6byzjoqiq7b2bovpg4epgku4i?si=f0c9a549e8a64e14" [ref=e49] [cursor=pointer]:
+            - /url: https://open.spotify.com/user/31s6byzjoqiq7b2bovpg4epgku4i?si=f0c9a549e8a64e14
+            - img
+        - listitem [ref=e50]:
+          - link "https://soundcloud.com/user-107475872" [ref=e51] [cursor=pointer]:
+            - /url: https://soundcloud.com/user-107475872
+            - img
+        - listitem [ref=e52]:
+          - link "https://www.youtube.com/c/UnbelievablySpectacular" [ref=e53] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/UnbelievablySpectacular
+            - img
+  - generic [ref=e57]:
+    - generic:
+      - generic [ref=e66]:
+        - heading "Join our mailing list for the latest news" [level=3] [ref=e67]
+        - generic [ref=e68]:
+          - textbox "Your email" [ref=e71]
+          - button "Sign up" [ref=e73] [cursor=pointer]
+      - heading "NEWS" [level=2] [ref=e81]:
+        - generic [ref=e82]: NEWS
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e90]:
+            - figure [ref=e92]:
+              - link [ref=e93] [cursor=pointer]:
+                - /url: https://open.spotify.com/album/2M366k2uK6oH6MvQ8qAG9p?si=e7nBQysJToSqq4z7sx1GIA
+            - generic [ref=e96]:
+              - heading "Sunflwr \"Heard it in a Dream\" LP makes year-end NACC top 10 charts" [level=3] [ref=e97]
+              - paragraph [ref=e99]: "With over 40 weeks charting and counting including 6 weeks in the #1 spot, sunflwr locked in the #2 spot in the NACC Chill and #6 on the NACC ELECTRONIC: Year End Top 10 for his album \"Heard it in a Dream\". Big thank you to all the radio stations supporting it."
+              - link "Stream now" [ref=e101] [cursor=pointer]:
+                - /url: https://open.spotify.com/album/2M366k2uK6oH6MvQ8qAG9p?si=e7nBQysJToSqq4z7sx1GIA
+          - generic [ref=e104]:
+            - figure [ref=e106]:
+              - link [ref=e107] [cursor=pointer]:
+                - /url: https://bfan.link/feel-this-way
+            - generic [ref=e110]:
+              - heading "Listen Now to DJ Planet Express' \"Feel This Way\"" [level=3] [ref=e111]
+              - paragraph [ref=e113]: "\"Feel This Way\" is the second single from his upcoming new EP \"BIG LIFE\" out on the Toronto based artist's label No Content. Take a late night trip to outer space on this deep heavy hitting breaks track."
+              - link "Listen Now" [ref=e115] [cursor=pointer]:
+                - /url: https://bfan.link/feel-this-way
+          - generic [ref=e118]:
+            - figure [ref=e120]:
+              - link [ref=e121] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=HHxjYlhssms
+            - generic [ref=e124]:
+              - heading "sunflwr - \"auburn (Official)" [level=3] [ref=e125]
+              - paragraph [ref=e127]: The company welcomes LA based artist sunflwr, aka Lucas Hanson on board for management. Check out his debut official video for "auburn" from his upcoming EP of the same name out March 14th 2024 on the label now.
+              - link "Watch Now" [ref=e129] [cursor=pointer]:
+                - /url: https://www.youtube.com/watch?v=HHxjYlhssms
+          - generic [ref=e132]:
+            - figure [ref=e134]
+            - generic [ref=e137]:
+              - heading "\"the joy you once felt\" by dj poolboi is out now" [level=3] [ref=e138]
+              - link "Listen" [ref=e140] [cursor=pointer]:
+                - /url: http://sq.lnk.to/SNFLP015S2
+          - generic [ref=e143]:
+            - figure [ref=e145]:
+              - img [ref=e147]
+            - generic [ref=e149]:
+              - heading "Out Now - Post Modern Connection's EP \"A Welcome Change\"" [level=3] [ref=e150]
+              - paragraph [ref=e152]: Say hello to one of the new top emerging voices in the Canadian indie scene. We're delighted to be a part of the groups new EP whose lead singles have been picking up accolades from some of the top indie tastemakers.
+              - link "Listen now" [ref=e154] [cursor=pointer]:
+                - /url: https://orcd.co/pmc_a_welcome_change
+          - generic [ref=e157]:
+            - figure [ref=e159]:
+              - img [ref=e161]
+            - generic [ref=e163]:
+              - heading "dj poolboi announces new LP \"into blue light\" with Shall Not Fade and lead single \"won't let it ruin my mood\"" [level=3] [ref=e164]
+              - paragraph [ref=e166]:
+                - text: We welcome the legend dj poolboi back to Shall Not Fade with his fourth studio album 'into the light'.
+                - text: dj poolboi once again delivers 11 tracks of his trademark emotion driven house music, warm, feel good but yet still powerful and thought envoking.
+                - text: into blue light lp drops March 8th 2024.
+              - link "Listen Now" [ref=e168] [cursor=pointer]:
+                - /url: https://music.djpoolboi.com/sn2D
+        - generic [ref=e169]:
+          - generic [ref=e172]:
+            - figure [ref=e174]:
+              - img [ref=e176]
+            - generic [ref=e178]:
+              - heading "Listen to Shaolin Cowboy's new EP 'Spirited Alone'" [level=3] [ref=e179]
+              - paragraph [ref=e181]: These tracks will immerse you in an odyssey of breakbeats, glitchy melodic stabs, and irresistible vocals that are poised to reverberate across dance floors around the globe.
+              - link "Listen Now" [ref=e183] [cursor=pointer]:
+                - /url: https://fans.unbelievablyspectacular.com/kdVq
+          - generic [ref=e186]:
+            - figure [ref=e188]
+            - generic [ref=e191]:
+              - heading "Pìjus-'Lay Low' Album is a real breakthrough" [level=3] [ref=e192]
+              - paragraph [ref=e194]: Starting off his music career on the right path, Pìjus' album reached unexpected heights. Click to stream the LP and judge for yourself.
+              - link "Stream now" [ref=e196] [cursor=pointer]:
+                - /url: https://open.spotify.com/album/0mP8zcDoFpoQ95Trut5TxI?si=10fy8h3ySgiAP4GZdm9t9g
+        - generic [ref=e197]:
+          - generic [ref=e201]:
+            - figure [ref=e203]
+            - generic [ref=e206]:
+              - 'heading "Listen now: \"Nothing Is Yours\" the debut EP by Clay Orange\"" [level=3] [ref=e207]'
+              - heading "\"Clay Orange Stuns Via Psych Alt-Country Charm\"" [level=4] [ref=e208]
+              - generic [ref=e209]:
+                - paragraph [ref=e210]: Unbelievably Spectacular are excited to announce this brand new alt country / indie / folk artist and his exceptional debut EP.
+                - paragraph [ref=e211]: Clay Orange is putting a fresh distilled sound to the table; blending new age alt country Appalachian folk, psych, indie and bluegrass sound reminiscent of the genre’s early pioneers and legends with an array of countless other rich influences that seep through the imperfect cracks of the songs.
+                - paragraph [ref=e212]
+              - link "Listen Now" [ref=e214] [cursor=pointer]:
+                - /url: https://fans.unbelievablyspectacular.com/iuQD
+          - generic [ref=e218]:
+            - figure [ref=e220]
+            - generic [ref=e223]:
+              - heading "Out Now. Listen to the new EP \"21 Hours\" by Shaolin Cowboy. Available on all streaming platforms" [level=3] [ref=e224]
+              - paragraph [ref=e226]: Add text
+              - link "Listen now" [ref=e228] [cursor=pointer]:
+                - /url: https://orcd.co/21hours
+          - generic [ref=e232]:
+            - figure [ref=e234]
+            - generic [ref=e237]:
+              - 'heading "Out now : Laguna''s \"Objects in the Mirror Are Closer Than They Appear\" EP" [level=3] [ref=e238]'
+              - paragraph [ref=e240]: "\"Laguna\" started in the music industry as a 15 year old teenager making slightly more progressive house and EDM music, he was very quickly widely embraced being supported by massive international dj’s Tiesto, Hardwell, Oliver Heldens and more on his original music under his first moniker “Lev” used from 2014-2020 witch despite it’s very DIY style release has been streamed over 5 million times."
+              - link "Listen now" [ref=e242] [cursor=pointer]:
+                - /url: https://orcd.co/8mava8e
+  - contentinfo [ref=e247]:
+    - contentinfo [ref=e254]:
+      - paragraph [ref=e258]: ®&© 2026 Unbelievably Spectacular™
+      - navigation:
+        - list

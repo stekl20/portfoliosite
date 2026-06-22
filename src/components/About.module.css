@@ -1,0 +1,27 @@
+.section {
+  padding: 48px 0 40px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 28px 0 24px;
+  }
+}
+
+.label {
+  color: var(--text-muted);
+  font-style: italic;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.bio {
+  color: var(--text);
+  font-size: 13px;
+  line-height: 1.7;
+  max-width: 680px;
+}
+
+.divider {
+  margin-top: 40px;
+}

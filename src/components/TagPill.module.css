@@ -1,0 +1,21 @@
+.pill {
+  display: inline-block;
+  font-size: 11px;
+  padding: 1px 0;
+  border-radius: 0;
+  font-family: var(--font-mono);
+  line-height: 1.5;
+}
+
+.marketing   { color: var(--accent-green); }
+.pr          { color: var(--accent-blue); }
+.creative    { color: #d97706; }
+.ar          { color: #7c3aed; }
+.mgmt        { color: var(--accent-yellow); }
+.label       { color: #dc2626; }
+.ops         { color: var(--text-muted); }
+.partnerships { color: var(--accent-blue); }
+
+[data-theme="dark"] .creative    { color: #fbbf24; }
+[data-theme="dark"] .ar          { color: #a78bfa; }
+[data-theme="dark"] .label       { color: #f87171; }

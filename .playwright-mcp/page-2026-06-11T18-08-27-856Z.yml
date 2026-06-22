@@ -1,0 +1,209 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: $
+        - generic [ref=e7]: alex_stekl
+      - generic [ref=e8]: // music_label_ops && creative_operations
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "[linkedin]" [ref=e11] [cursor=pointer]:
+            - /url: https://linkedin.com/in/alexstekl
+          - link "[email]" [ref=e12] [cursor=pointer]:
+            - /url: mailto:alxstekl@gmail.com
+        - generic [ref=e13]:
+          - button "[light]" [pressed] [ref=e14] [cursor=pointer]
+          - button "[dark]" [ref=e15] [cursor=pointer]
+  - region "About" [ref=e16]:
+    - generic [ref=e17]:
+      - paragraph [ref=e18]: /* about */
+      - paragraph [ref=e19]: Specializing in label and creative operations, with a passion for delivering impactful releases and designing effective workflows for the modern music industry. Comfortable working across both operational and technical teams to help bring the right tools and processes to life.
+    - separator [ref=e21]
+  - main "Experience" [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: ">"
+            - link "PRAIRY" [ref=e29] [cursor=pointer]:
+              - /url: https://www.prairy.xyz
+          - generic [ref=e30]: contract_full_time
+          - generic [ref=e31]: remote
+          - generic [ref=e32]:
+            - generic [ref=e33]: "[creative]"
+            - generic [ref=e34]: "[ops]"
+            - generic [ref=e35]: "[label]"
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - generic [ref=e39]: label_ops_specialist
+              - generic [ref=e40]:
+                - generic [ref=e41]: sep_2025 → present
+                - generic [ref=e42]: // 9_mos
+            - generic [ref=e43]:
+              - generic [ref=e44]: creative_coordinator
+              - generic [ref=e45]:
+                - generic [ref=e46]: sep_2024 → sep_2025
+                - generic [ref=e47]: // 1_yr_1_mo
+          - list [ref=e48]:
+            - listitem [ref=e49]:
+              - generic [ref=e50]: •
+              - generic [ref=e51]: Owned the end-to-end release workflow — from finalizing audio and design assets through distribution — serving as primary point of contact across Stem, SoundOn, and Label Engine.
+            - listitem [ref=e52]:
+              - generic [ref=e53]: •
+              - generic [ref=e54]: Built internal tooling including a release scheduling tracker and a web app that generates playlist pitches and creative assets (Spotify canvases, YouTube art tracks) from release data via API.
+            - listitem [ref=e55]:
+              - generic [ref=e56]: •
+              - generic [ref=e57]: Managed external contractors for video editing and design; provided creative direction and ensured on-time delivery against release timelines.
+            - listitem [ref=e58]:
+              - generic [ref=e59]: •
+              - generic [ref=e60]: Coordinated creative asset delivery across artists, the internal team, and distribution partners ahead of release deadlines.
+            - listitem [ref=e61]:
+              - generic [ref=e62]: •
+              - generic [ref=e63]: Creative assets produced using a combination of generative AI tools and Photoshop — cover art, display pictures, and visual identity work.
+          - generic [ref=e64]:
+            - img "PRAIRY work sample 1" [ref=e66]
+            - img "PRAIRY work sample 2" [ref=e68]
+            - img "PRAIRY work sample 3" [ref=e70]
+            - img "PRAIRY work sample 4" [ref=e72]
+            - img "PRAIRY work sample 5" [ref=e74]
+            - img "PRAIRY work sample 6" [ref=e76]
+            - img "PRAIRY work sample 7" [ref=e78]
+            - img "PRAIRY work sample 8" [ref=e80]
+            - img "PRAIRY work sample 9" [ref=e82]
+            - img "PRAIRY work sample 10" [ref=e84]
+            - img "PRAIRY work sample 11" [ref=e86]
+            - img "PRAIRY work sample 12" [ref=e88]
+            - img "PRAIRY work sample 13" [ref=e90]
+            - img "PRAIRY work sample 14" [ref=e92]
+            - img "PRAIRY work sample 15" [ref=e94]
+            - img "PRAIRY work sample 16" [ref=e96]
+            - img "PRAIRY work sample 17" [ref=e98]
+            - img "PRAIRY work sample 18" [ref=e100]
+            - img "PRAIRY work sample 19" [ref=e102]
+            - img "PRAIRY work sample 20" [ref=e104]
+            - img "PRAIRY work sample 21" [ref=e106]
+            - img "PRAIRY work sample 22" [ref=e108]
+            - img "PRAIRY work sample 23" [ref=e110]
+            - img "PRAIRY work sample 24" [ref=e112]
+            - img "PRAIRY work sample 25" [ref=e114]
+            - img "PRAIRY work sample 26" [ref=e116]
+            - img "PRAIRY work sample 27" [ref=e118]
+            - img "PRAIRY work sample 28" [ref=e120]
+            - img "PRAIRY work sample 29" [ref=e122]
+      - separator [ref=e123]
+      - generic [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: ">"
+            - link "SURELY_WORK" [ref=e129] [cursor=pointer]:
+              - /url: https://www.surelywork.com
+          - generic [ref=e130]: contract_part_time
+          - generic [ref=e131]: remote
+          - generic [ref=e132]:
+            - generic [ref=e133]: "[marketing]"
+            - generic [ref=e134]: "[partnerships]"
+        - generic [ref=e135]:
+          - generic [ref=e137]:
+            - generic [ref=e138]: marketing_&&_partnerships_manager
+            - generic [ref=e139]:
+              - generic [ref=e140]: jun_2023 → oct_2025
+              - generic [ref=e141]: // 2_yrs_4_mos
+          - paragraph [ref=e142]: "#Global creative network and jobs board for the entertainment industry."
+          - list [ref=e143]:
+            - listitem [ref=e144]:
+              - generic [ref=e145]: •
+              - generic [ref=e146]: Grew Instagram following and helped scale the platform to over 10,000 users through targeted content strategy.
+            - listitem [ref=e147]:
+              - generic [ref=e148]: •
+              - generic [ref=e149]: Established and maintained partnerships with agencies, labels, and production companies across the creative industry.
+            - listitem [ref=e150]:
+              - generic [ref=e151]: •
+              - generic [ref=e152]: Managed ongoing relationships with influential community members to drive collaboration and retention.
+      - separator [ref=e153]
+      - generic [ref=e154]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]: ">"
+            - link "ORIENTEER" [ref=e159] [cursor=pointer]:
+              - /url: https://orienteer.us
+          - generic [ref=e160]: internship
+          - generic [ref=e161]: remote
+          - generic [ref=e162]:
+            - generic [ref=e163]: "[pr]"
+            - generic [ref=e164]: "[ops]"
+        - generic [ref=e165]:
+          - generic [ref=e167]:
+            - generic [ref=e168]: publicity_intern
+            - generic [ref=e169]:
+              - generic [ref=e170]: jan_2024 → jun_2024
+              - generic [ref=e171]: // 6_mos
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - generic [ref=e174]: •
+              - generic [ref=e175]: Processed interview requests for notable artists including Kaytranada, Tyler The Creator, and Omar Apollo.
+            - listitem [ref=e176]:
+              - generic [ref=e177]: •
+              - generic [ref=e178]: Authored press releases to announce tours and releases for artists such as Empress Of, Freddie Gibbs, Matt Champion, Teezo Touchdown, and more.
+            - listitem [ref=e179]:
+              - generic [ref=e180]: •
+              - generic [ref=e181]: Coordinated press outreach and maintained media contact databases.
+          - generic [ref=e182]:
+            - link "[empress_of_–_pr_feb_2024]" [ref=e183] [cursor=pointer]:
+              - /url: /docs/Empress Of PR Feb 21 (1).pdf
+            - link "[freddie_gibbs_–_la_tenata_show]" [ref=e184] [cursor=pointer]:
+              - /url: /docs/Freddie Gibbs LA Tenata Show (2).pdf
+            - link "[matt_champion_–_pr_jun_2024]" [ref=e185] [cursor=pointer]:
+              - /url: /docs/Matt Champion PR Wed Jun 12.pdf
+            - link "[superfan_–_75_germany_pr]" [ref=e186] [cursor=pointer]:
+              - /url: /docs/Superfan _75 Germany_ PR.pdf
+            - link "[teezo_touchdown_–_third_coast_mv]" [ref=e187] [cursor=pointer]:
+              - /url: /docs/Teezo Touchdown __ _Third Coast_ Music video.pdf
+      - separator [ref=e188]
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - generic [ref=e191]:
+            - generic [ref=e192]: ">"
+            - link "WENER_MGMT" [ref=e194] [cursor=pointer]:
+              - /url: https://wenermgmt.com
+          - generic [ref=e195]: on_call
+          - generic [ref=e196]: vancouver_bc · hybrid
+          - generic [ref=e197]:
+            - generic [ref=e198]: "[mgmt]"
+            - generic [ref=e199]: "[ops]"
+        - generic [ref=e200]:
+          - generic [ref=e202]:
+            - generic [ref=e203]: assistant
+            - generic [ref=e204]:
+              - generic [ref=e205]: aug_2023 → nov_2023
+              - generic [ref=e206]: // 4_mos
+          - paragraph [ref=e207]: "#Artist Management & Talent Buying company."
+          - list [ref=e208]:
+            - listitem [ref=e209]:
+              - generic [ref=e210]: •
+              - generic [ref=e211]: Assisted with admin and communications across artist management and talent buying operations.
+      - separator [ref=e212]
+      - generic [ref=e213]:
+        - generic [ref=e214]:
+          - generic [ref=e215]:
+            - generic [ref=e216]: ">"
+            - generic [ref=e217]: UNBELIEVABLY_SPECTACULAR
+          - generic [ref=e218]: contract_part_time
+          - generic [ref=e219]: remote
+          - generic [ref=e220]:
+            - generic [ref=e221]: "[ar]"
+            - generic [ref=e222]: "[label]"
+        - generic [ref=e223]:
+          - generic [ref=e225]:
+            - generic [ref=e226]: a&r_+_label_manager
+            - generic [ref=e227]:
+              - generic [ref=e228]: aug_2023 → oct_2023
+              - generic [ref=e229]: // 3_mos
+          - list [ref=e230]:
+            - listitem [ref=e231]:
+              - generic [ref=e232]: •
+              - generic [ref=e233]: Coordinated North American and European tours for dj poolboi, DJ Planet Express, and Chris Luno.
+            - listitem [ref=e234]:
+              - generic [ref=e235]: •
+              - generic [ref=e236]: Handled A&R administration and talent booking logistics.
+      - separator [ref=e237]

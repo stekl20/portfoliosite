@@ -1,0 +1,83 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: $
+        - generic [ref=e7]: alex_stekl
+      - generic [ref=e8]: // music_label_ops && creative_operations
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - link "[linkedin]" [ref=e11] [cursor=pointer]:
+            - /url: https://linkedin.com/in/alexstekl
+          - link "[email]" [ref=e12] [cursor=pointer]:
+            - /url: mailto:alxstekl@gmail.com
+        - generic [ref=e13]:
+          - button "[light]" [ref=e14] [cursor=pointer]
+          - button "[dark]" [active] [pressed] [ref=e15] [cursor=pointer]
+  - region "About" [ref=e16]:
+    - generic [ref=e17]:
+      - paragraph [ref=e18]: /* about */
+      - paragraph [ref=e19]: Specializing in label and creative operations, with a passion for delivering impactful releases and designing effective workflows for the modern music industry. Comfortable working across both operational and technical teams to help bring the right tools and processes to life.
+    - separator [ref=e21]
+  - main "Work" [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - generic [ref=e26]:
+            - generic [ref=e27]: ">"
+            - generic [ref=e28]: PVRIS
+          - generic [ref=e29]: white_noise_anniversary
+          - generic [ref=e30]: "type: press_release"
+          - generic [ref=e31]:
+            - generic [ref=e32]: "[design]"
+            - generic [ref=e33]: "[pr]"
+        - generic [ref=e34]:
+          - generic [ref=e35]: "2025"
+          - text: Rise Records
+        - paragraph [ref=e37]: "#Press release for WHITE NOISE 10 year anniversary vinyl. Coordinated media outreach and artist interviews."
+      - separator [ref=e42]
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e46]: ">"
+            - generic [ref=e47]: DHRUV
+          - generic [ref=e48]: private_blizzard
+          - generic [ref=e49]: "type: press_campaign"
+          - generic [ref=e50]:
+            - generic [ref=e51]: "[video]"
+            - generic [ref=e52]: "[pr]"
+        - generic [ref=e53]:
+          - generic [ref=e54]: "2024"
+          - text: RCA Records
+        - paragraph [ref=e56]: "#Full PR campaign for debut album launch including press kit development and media relations."
+      - separator [ref=e61]
+      - generic [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - generic [ref=e65]: ">"
+            - generic [ref=e66]: K.FLAY
+          - generic [ref=e67]: mono
+          - generic [ref=e68]: "type: press_release"
+          - generic [ref=e69]:
+            - generic [ref=e70]: "[design]"
+            - generic [ref=e71]: "[audio]"
+        - generic [ref=e72]:
+          - generic [ref=e73]: "2023"
+          - text: Giant Music
+        - paragraph [ref=e75]: "#Press release for Grammy-nominated artist fifth studio album. Exclusive variants coverage."
+      - separator [ref=e80]
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: ">"
+            - generic [ref=e85]: LATE_MONDAY
+          - generic [ref=e86]: done_with_me
+          - generic [ref=e87]: "type: single_press_release"
+          - generic [ref=e88]:
+            - generic [ref=e89]: "[video]"
+            - generic [ref=e90]: "[design]"
+        - generic [ref=e91]:
+          - generic [ref=e92]: "2024"
+          - text: Atlantic Records
+        - paragraph [ref=e94]: "#Single announcement press release with streaming links and artist quotes for breakout single."
+      - separator [ref=e98]

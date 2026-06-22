@@ -1,0 +1,95 @@
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - link [ref=e7] [cursor=pointer]:
+      - /url: home
+      - heading [level=2] [ref=e8]:
+        - figure [ref=e10]:
+          - img [ref=e14]
+    - generic [ref=e17]:
+      - link "INFO" [ref=e19] [cursor=pointer]:
+        - /url: overlay
+      - text: ARTIST MANAGEMENT
+      - text: VANCOUVER + TORONTO
+      - link "TALENT BUYING" [ref=e20] [cursor=pointer]:
+        - /url: talent-buying
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - generic [ref=e28]:
+        - separator [ref=e29]
+        - figure [ref=e31] [cursor=pointer]:
+          - link [ref=e33]:
+            - /url: https://merkulesmusic.com/
+            - img [ref=e35]
+          - link "Merkules" [ref=e37]:
+            - /url: https://merkulesmusic.com
+            - text: Merkules
+            - img [ref=e39]
+      - generic [ref=e41]:
+        - separator [ref=e43]
+        - figure [ref=e46] [cursor=pointer]:
+          - link [ref=e48]:
+            - /url: https://www.djshub.ca/
+            - img [ref=e50]
+          - link "Shub" [ref=e52]:
+            - /url: https://www.djshub.ca/
+            - text: Shub
+            - img [ref=e54]
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - separator [ref=e58]
+        - figure [ref=e61] [cursor=pointer]:
+          - link [ref=e63]:
+            - /url: https://www.olliemusicofficial.com
+            - img [ref=e65]
+          - link "Ollie" [ref=e67]:
+            - /url: https://www.olliemusicofficial.com/
+            - text: Ollie
+            - img [ref=e69]
+      - generic [ref=e71]:
+        - separator [ref=e72]
+        - figure [ref=e75]:
+          - img [ref=e79]
+          - link "Five Alarm Funk" [ref=e81] [cursor=pointer]:
+            - /url: https://www.fivealarmfunk.com/
+            - text: Five Alarm Funk
+            - img [ref=e83]
+    - generic [ref=e85]:
+      - generic [ref=e87]:
+        - separator [ref=e88]
+        - figure [ref=e90] [cursor=pointer]:
+          - link [ref=e92]:
+            - /url: https://www.tiktok.com/@modernbiology
+            - img [ref=e94]
+          - link "Modern Biology" [ref=e96]:
+            - /url: https://www.modernbiology.xyz/
+            - text: Modern Biology
+            - img [ref=e98]
+      - generic [ref=e101]:
+        - separator [ref=e102]
+        - figure [ref=e104] [cursor=pointer]:
+          - link [ref=e106]:
+            - /url: https://garrettwillie.com
+            - img [ref=e108]
+          - link "Garret T. Willie" [ref=e110]:
+            - /url: https://garrettwillie.com/
+            - text: Garret T. Willie
+            - img [ref=e112]
+    - generic [ref=e114]:
+      - generic [ref=e116]:
+        - separator [ref=e117]
+        - figure [ref=e119] [cursor=pointer]:
+          - link [ref=e121]:
+            - /url: https://www.dazydukeofficial.com/
+            - img [ref=e123]
+          - link "Dazy Duke" [ref=e125]:
+            - /url: https://www.dazydukeofficial.com/
+            - text: Dazy Duke
+            - img [ref=e127]
+        - separator [ref=e129]
+      - separator [ref=e132]
+  - generic [ref=e138]:
+    - figure [ref=e140] [cursor=pointer]:
+      - link [ref=e142]:
+        - /url: home
+        - img [ref=e144]
+    - text: ©2026 WenerHouseMusic Inc.
