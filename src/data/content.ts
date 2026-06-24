@@ -132,7 +132,7 @@ export const experience: ExperienceEntry[] = [
     url: "https://unbelievablyspectacular.com/home",
     preview: "/previews/unbelievably-spectacular.jpg",
     roles: [
-      { title: "a&r + label manager", start: "aug_2023", end: "oct_2023", duration: "3_mos" },
+      { title: "a&r + label coordinator", start: "aug_2023", end: "oct_2023", duration: "3_mos" },
     ],
     description: "",
     bullets: [
