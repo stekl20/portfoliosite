@@ -172,6 +172,11 @@
   flex-shrink: 0;
 }
 
+/* Mobile slideshow grid */
+.slideshowGrid {
+  display: none;
+}
+
 /* Images */
 .images {
   display: flex;
@@ -296,19 +301,41 @@ a.companyName:hover {
   }
 
   .images {
+    display: none;
+  }
+
+  .slideshowGrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 6px;
-    margin-top: 12px;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+    grid-column: 1 / -1;
+    margin-top: 16px;
+    cursor: pointer;
   }
 
-  .imgThumb {
-    width: 100%;
-    height: auto;
+  .slideshowCell {
     aspect-ratio: 1;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2px;
   }
 
-  .imgThumbExpanded {
-    transform: none;
+  .cellBase,
+  .cellNext {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .cellNext {
+    opacity: 0;
+    transition: opacity 1000ms ease;
+  }
+
+  .cellNextVisible {
+    opacity: 1;
   }
 }

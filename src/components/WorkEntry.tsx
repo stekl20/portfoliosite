@@ -1,4 +1,4 @@
-import { useState, useRef, useCallback } from 'react'
+import { useState, useRef, useCallback, useEffect } from 'react'
 import Lightbox from 'yet-another-react-lightbox'
 import 'yet-another-react-lightbox/styles.css'
 import type { ExperienceEntry } from '../data/content'
@@ -15,8 +15,12 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
   const [expandedThumb, setExpandedThumb] = useState<number | null>(null)
   const [expandOrigin, setExpandOrigin] = useState('top left')
   const [showPreview, setShowPreview] = useState(false)
+  const [slideTick, setSlideTick] = useState(0)
+  const [crossfading, setCrossfading] = useState(false)
+  const [slidePaused, setSlidePaused] = useState(false)
   const expandTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const previewTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const pauseTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   const handleCompanyEnter = useCallback(() => {
     previewTimer.current = setTimeout(() => setShowPreview(true), 300)
@@ -28,6 +32,28 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
   }, [])
 
   const slides = entry.images?.map(src => ({ src })) ?? []
+
+  const offset = Math.max(1, Math.floor(slides.length / 4))
+  const getSlide = (cell: number, tick: number) => slides[(tick + cell * offset) % slides.length]
+  const getNextSlide = (cell: number, tick: number) => slides[(tick + 1 + cell * offset) % slides.length]
+
+  useEffect(() => {
+    if (slides.length < 4 || slidePaused) return
+    const interval = setInterval(() => {
+      setCrossfading(true)
+      setTimeout(() => {
+        setSlideTick(t => t + 1)
+        setCrossfading(false)
+      }, 1000)
+    }, 6000)
+    return () => clearInterval(interval)
+  }, [slides.length, slidePaused])
+
+  const handleSlideshowClick = () => {
+    setSlidePaused(true)
+    if (pauseTimer.current) clearTimeout(pauseTimer.current)
+    pauseTimer.current = setTimeout(() => setSlidePaused(false), 7000)
+  }
 
   const handleThumbEnter = (i: number, el: HTMLDivElement) => {
     const container = el.parentElement
@@ -49,7 +75,7 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
 
   return (
     <>
-      <div className={styles.entry} style={{ animationDelay: `${index * 60}ms` }}>
+      <div className={styles.entry} data-entry style={{ animationDelay: `${index * 60}ms` }}>
         {/* Left column */}
         <div className={styles.left}>
           <div className={styles.companyLine}>
@@ -123,6 +149,22 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
                 >
                   [{doc.label}]
                 </a>
+              ))}
+            </div>
+          )}
+
+          {slides.length >= 4 && (
+            <div className={styles.slideshowGrid} onClick={handleSlideshowClick}>
+              {[0, 1, 2, 3].map(cell => (
+                <div key={cell} className={styles.slideshowCell}>
+                  <img src={getSlide(cell, slideTick).src} alt="" className={styles.cellBase} />
+                  <img
+                    key={`${cell}-${slideTick}`}
+                    src={getNextSlide(cell, slideTick).src}
+                    alt=""
+                    className={`${styles.cellNext} ${crossfading ? styles.cellNextVisible : ''}`}
+                  />
+                </div>
               ))}
             </div>
           )}

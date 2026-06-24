@@ -5,7 +5,7 @@ import styles from './WorkList.module.css'
 export function WorkList() {
   return (
     <main aria-label="Experience">
-      <div className={`container ${styles.section}`}>
+      <div className={`container ${styles.section}`} data-work-list>
         {experience.map((entry, index) => (
           <WorkEntry key={entry.id} entry={entry} index={index} />
         ))}
