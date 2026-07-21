@@ -39,15 +39,14 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
 
   useEffect(() => {
     if (slides.length < 4 || slidePaused) return
-    const interval = setInterval(() => {
-      setCrossfading(true)
-      setTimeout(() => {
-        setSlideTick(t => t + 1)
-        setCrossfading(false)
-      }, 1000)
-    }, 6000)
+    const interval = setInterval(() => setCrossfading(true), 6000)
     return () => clearInterval(interval)
   }, [slides.length, slidePaused])
+
+  const handleFadeEnd = () => {
+    setSlideTick(t => t + 1)
+    setCrossfading(false)
+  }
 
   const handleSlideshowClick = () => {
     setSlidePaused(true)
@@ -163,6 +162,7 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
                     src={getNextSlide(cell, slideTick).src}
                     alt=""
                     className={`${styles.cellNext} ${crossfading ? styles.cellNextVisible : ''}`}
+                    onTransitionEnd={cell === 0 ? handleFadeEnd : undefined}
                   />
                 </div>
               ))}
