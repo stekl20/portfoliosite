@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Header } from './components/Header'
 import { About } from './components/About'
 import { WorkList } from './components/WorkList'
+import { Projects } from './components/Projects'
 
 type Theme = 'light' | 'dark'
 
@@ -24,6 +25,7 @@ export function App() {
       <Header theme={theme} onToggle={setTheme} />
       <About />
       <WorkList />
+      <Projects />
     </>
   )
 }

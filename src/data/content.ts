@@ -1,9 +1,9 @@
 export const profile = {
   name: "alex_stekl",
-  role: "music_label_ops && creative_operations",
+  role: "creative_operations & project_management",
   linkedin: "https://linkedin.com/in/alexstekl",
   email: "alxstekl@gmail.com",
-  about: `I work at the intersection of creative, operations, music, and technology — building workflows, delivering projects, and helping teams move faster without losing quality. Background spans label ops, distribution, internal tooling, and creative production. I'm drawn to the gap between how things work and how they could.`,
+  about: `I work at the intersection of creative, operations, music, and technology - building workflows, delivering projects, and helping teams move faster without losing quality. Background spans creative production, internal tooling, workflow automation, and project management. I'm drawn to the gap between how things work and how they could.`,
 }
 
 export type Tag = "marketing" | "pr" | "creative" | "ar" | "mgmt" | "label" | "ops" | "partnerships"
@@ -143,5 +143,33 @@ export const experience: ExperienceEntry[] = [
       "Handled A&R administration and talent booking logistics.",
     ],
     tags: ["ar", "label"],
+  },
+]
+
+export interface Project {
+  id: string
+  name: string
+  stack: string[]
+  description: string
+}
+
+export const projects: Project[] = [
+  {
+    id: "release-pipeline-tracker",
+    name: "release_pipeline_tracker",
+    stack: ["claude code", "telegram"],
+    description: "Internal release management tool for tracking upcoming releases and asset readiness across a multi-artist roster. Integrated with Telegram to notify the team of missing assets and approaching release dates.",
+  },
+  {
+    id: "release-pitch-tool",
+    name: "release_pitch_tool",
+    stack: ["claude code", "spotify api", "anthropic api", "telegram"],
+    description: "Automated Spotify editorial pitch generator connected to the release pipeline, Spotify artist data, and Anthropic API. Pitches are auto-generated from release metadata and artist context, with Telegram alerts if submissions are pending ahead of deadlines.",
+  },
+  {
+    id: "release-asset-creator",
+    name: "release_asset_creator",
+    stack: ["claude code", "ffmpeg"],
+    description: "Extension of the pitch tool that pulls audio and cover art via API and automatically generates Spotify Canvas, YouTube art tracks, and social clips ready for posting.",
   },
 ]
