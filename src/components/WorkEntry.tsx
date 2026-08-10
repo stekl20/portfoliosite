@@ -18,6 +18,7 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
   const [slideTick, setSlideTick] = useState(0)
   const [crossfading, setCrossfading] = useState(false)
   const [slidePaused, setSlidePaused] = useState(false)
+  const [showGallery, setShowGallery] = useState(false)
   const expandTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const previewTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const pauseTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -38,10 +39,10 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
   const getNextSlide = (cell: number, tick: number) => slides[(tick + 1 + cell * offset) % slides.length]
 
   useEffect(() => {
-    if (slides.length < 4 || slidePaused) return
+    if (slides.length < 4 || slidePaused || !showGallery) return
     const interval = setInterval(() => setCrossfading(true), 6000)
     return () => clearInterval(interval)
-  }, [slides.length, slidePaused])
+  }, [slides.length, slidePaused, showGallery])
 
   const handleFadeEnd = () => {
     setSlideTick(t => t + 1)
@@ -152,7 +153,18 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
             </div>
           )}
 
-          {slides.length >= 4 && (
+          {slides.length > 0 && (
+            <button
+              type="button"
+              className={styles.galleryToggle}
+              onClick={() => setShowGallery(v => !v)}
+              aria-expanded={showGallery}
+            >
+              [{showGallery ? 'hide samples' : 'view samples'}]
+            </button>
+          )}
+
+          {showGallery && slides.length >= 4 && (
             <div className={styles.slideshowGrid} onClick={handleSlideshowClick}>
               {[0, 1, 2, 3].map(cell => (
                 <div key={cell} className={styles.slideshowCell}>
@@ -169,7 +181,7 @@ export function WorkEntry({ entry, index }: WorkEntryProps) {
             </div>
           )}
 
-          {slides.length > 0 && (
+          {showGallery && slides.length > 0 && (
             <div className={styles.images}>
               {slides.map((slide, i) => (
                 <div
