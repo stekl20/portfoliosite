@@ -16,10 +16,21 @@ const tagClass: Record<Tag, string> = {
   partnerships: styles.partnerships,
 }
 
+const tagLabel: Record<Tag, string> = {
+  marketing:    "marketing",
+  pr:           "pr",
+  creative:     "creative",
+  ar:           "a&r",
+  mgmt:         "mgmt",
+  label:        "label",
+  ops:          "ops",
+  partnerships: "partnerships",
+}
+
 export function TagPill({ tag }: TagPillProps) {
   return (
     <span className={`${styles.pill} ${tagClass[tag]}`}>
-      [{tag}]
+      [{tagLabel[tag]}]
     </span>
   )
 }
