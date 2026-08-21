@@ -3,7 +3,7 @@ export const profile = {
   role: "creative_operations & project_management",
   linkedin: "https://linkedin.com/in/alexstekl",
   email: "alxstekl@gmail.com",
-  about: `I work at the intersection of creative, operations, and technology - building workflows, delivering projects, and helping teams move faster without losing quality. Background spans creative production, internal tooling, workflow automation, and project management. I'm drawn to the gap between how things work and how they could.`,
+  about: `I work at the intersection of creative, operations, and technology - building workflows, delivering projects, and helping teams move faster without losing quality. Background spans project management, creative production, marketing, and internal tooling. I'm drawn to the gap between how things work and how they could.`,
 }
 
 export type Tag = "marketing" | "pr" | "creative" | "ar" | "mgmt" | "label" | "ops" | "partnerships"
