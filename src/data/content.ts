@@ -41,17 +41,16 @@ export const experience: ExperienceEntry[] = [
     url: "https://www.prairy.xyz",
     preview: "/previews/prairy.jpg",
     roles: [
-      { title: "label ops specialist",   start: "feb_2026", end: "present",  duration: "6_mos" },
-      { title: "creative manager",       start: "sep_2025", end: "feb_2026", duration: "6_mos" },
-      { title: "marketing coordinator",  start: "sep_2024", end: "sep_2025", duration: "1_yr_1_mo" },
+      { title: "creative operations manager", start: "sep_2025", end: "present",  duration: "1_yr" },
+      { title: "marketing coordinator",        start: "sep_2024", end: "sep_2025", duration: "1_yr" },
     ],
     description: "",
     bullets: [
       "Owned the end-to-end release workflow — from finalizing audio and design assets through distribution — serving as primary point of contact across Stem, SoundOn, and Label Engine.",
       "Built internal tooling including a release scheduling tracker and a web app that generates playlist pitches and creative assets (Spotify canvases, YouTube art tracks) from release data via API.",
-      "Managed external contractors for video editing and design; provided creative direction and ensured on-time delivery against release timelines.",
+      "Sourced and managed 20+ design and video editing contractors; provided creative direction and kept delivery on time and on budget against release timelines.",
       "Coordinated creative asset delivery across artists, the internal team, and distribution partners ahead of release deadlines.",
-      "Creative assets produced using a combination of generative AI tools and Photoshop — cover art, display pictures, and visual identity work.",
+      "Produced creative assets using a combination of generative AI tools and Photoshop — cover art, display pictures, and visual identity work.",
     ],
     tags: ["creative", "ops", "label"],
     images: [
