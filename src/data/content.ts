@@ -47,9 +47,9 @@ export const experience: ExperienceEntry[] = [
     description: "",
     bullets: [
       "Owned the end-to-end release workflow — from finalizing audio and design assets through distribution — serving as primary point of contact across Stem, SoundOn, and Label Engine.",
-      "Built internal tooling including a release scheduling tracker and a web app that generates playlist pitches and creative assets (Spotify canvases, YouTube art tracks) from release data via API.",
       "Sourced and managed 20+ design and video editing contractors; provided creative direction and kept delivery on time and on budget against release timelines.",
       "Coordinated creative asset delivery across artists, the internal team, and distribution partners ahead of release deadlines.",
+      "Built internal tooling including a release scheduling tracker and a web app that generates playlist pitches and creative assets (Spotify canvases, YouTube art tracks) from release data via API.",
       "Produced creative assets using a combination of generative AI tools and Photoshop — cover art, display pictures, and visual identity work.",
     ],
     tags: ["creative", "ops", "label"],
